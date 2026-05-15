@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>عسل الباحة الطبيعي</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="baha honey style.css"/>
+</head>
+<body>
+
+<nav id="mainNav">
+  <a href="index.html" class="nav-logo">
+    <img src="logo.PNG" alt="عسل الباحة"/>
+    <span>عسل الباحة</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">الرئيسية</a></li>
+    <li><a href="about.html">عن المنتج</a></li>
+    <li><a href="type.html">أنواع العسل</a></li>
+    <li><a href="how.html">عملية الإنتاج</a></li>
+    <li><a href="benefits.html">الفوائد</a></li>
+    <li><a href="quality.html">الجودة</a></li>
+    <li><a href="gallery.html">معرض الصور</a></li>
+    <li><a href="reviews.html">آراء العملاء</a></li>
+    <li><a href="contact.html" class="nav-cta">تواصل معنا</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="hero-hexbg"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">🍯 منتج سعودي أصيل من الباحة</div>
+      <h1 class="hero-title">عسل الباحة<br/><span>الطبيعي</span></h1>
+      <p class="hero-sub">نقاء من قلب الطبيعة... وطعم لا يقاوم. عسل جبلي أصيل من مناحل منطقة الباحة، يُجمع بعناية ليصلك في أفضل حالاته.</p>
+      <div class="hero-checks">
+        <div class="hero-check"><div class="icon">✓</div><span>عسل طبيعي 100٪ من جبال الباحة</span></div>
+        <div class="hero-check"><div class="icon">✓</div><span>غني بالفوائد الصحية والطاقة الطبيعية</span></div>
+        <div class="hero-check"><div class="icon">✓</div><span>منتج محلي بجودة عالية</span></div>
+        <div class="hero-check"><div class="icon">✓</div><span>طعم أصيل من أزهار متنوعة</span></div>
+      </div>
+      <div class="hero-btns">
+        <a href="types.html" class="btn-primary">🍯 اكتشف أنواعنا</a>
+        <a href="contact.html" class="btn-secondary">اطلب الآن</a>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <video src="IMG_3558.MP4" alt="عسل الباحة الطبيعي"> <video></video>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="f-logo">🍯 عسل الباحة الطبيعي</div>
+  <p>نقاء من قلب الطبيعة... وطعم لا يقاوم</p>
+  <p style="margin-top:.4rem;font-size:.8rem;opacity:.5">© 2025 عسل الباحة — جميع الحقوق محفوظة</p>
+</footer>
+
+<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<!-- قسم الأزرار بتنسيق نظيف -->
+<div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
+    
+    <!-- زر اطلب الآن المطور -->
+    <button onclick="orderNow()" style="padding: 10px 25px; border-radius: 30px; border: none; background: #e67e22; color: white; font-family: 'Tajawal', sans-serif; cursor: pointer; display: flex; align-items: center; gap: 8px;">
+        <span>🍯</span> اطلب الآن
+    </button>
+
+    <!-- زر اسم المصممة -->
+    <button onclick="showDesigner()" style="padding: 10px 25px; border-radius: 30px; border: 1px solid #ccc; background: #f9f9f9; cursor: pointer; font-family: 'Tajawal', sans-serif;">
+        عرض اسم المصممات
+    </button>
+
+</div>
+<div id="customAlert" class="custom-alert">
+  <div class="alert-content">
+    <span class="alert-icon">🍯</span>
+    <p>أهلاً بك في عالم عسل الباحة الطبيعي!</p>
+  </div>
+</div>
+
+<style>
+/* تنسيق الأنميشين لرسالة التنبيه */
+.custom-alert {
+  position: fixed;
+  top: -100px; /* البداية من خارج الشاشة */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f39c12;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  z-index: 9999;
+  transition: top 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.custom-alert.show {
+  top: 20px; /* تظهر للأسفل عند التفعيل */
+}
+.alert-content { display: flex; align-items: center; gap: 10px; font-weight: bold; }
+</style>
+
+<script src="baha honey jsver (1).js"></script>
+
+</body>
+</html>

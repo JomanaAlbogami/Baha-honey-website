@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>عسل الباحة الطبيعي</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="baha honey style.css"
+</head>
+<body>
+
+<!-- NAV -->
+
+<nav id="mainNav">
+  <a href="#hero" class="nav-logo">
+    <img src="logo.PNG" alt="عسل الباحة"/>
+    <span>عسل الباحة</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">عن المنتج</a></li>
+    <li><a href="#types">أنواع العسل</a></li>
+    <li><a href="#benefits">الفوائد</a></li>
+    <li><a href="#quality">الجودة</a></li>
+    <li><a href="#gallery">معرض الصور</a></li>
+    <li><a href="#reviews">آراء العملاء</a></li>
+    <li><a href="#contact" class="nav-cta">تواصل معنا</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleNav()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+
+<section id="hero">
+  <div class="hero-hexbg"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">🍯 منتج سعودي أصيل من الباحة</div>
+      <h1 class="hero-title">عسل الباحة<br/><span>الطبيعي</span></h1>
+      <p class="hero-sub">نقاء من قلب الطبيعة... وطعم لا يقاوم. عسل جبلي أصيل من مناحل منطقة الباحة، يُجمع بعناية ليصلك في أفضل حالاته.</p>
+      <div class="hero-checks">
+        <div class="hero-check"><div class="icon">✓</div><span>عسل طبيعي 100٪ من جبال الباحة</span></div>
+        <div class="hero-check"><div class="icon">✓</div><span>غني بالفوائد الصحية والطاقة الطبيعية</span></div>
+        <div class="hero-check"><div class="icon">✓</div><span>منتج محلي بجودة عالية</span></div>
+        <div class="hero-check"><div class="icon">✓</div><span>طعم أصيل من أزهار متنوعة</span></div>
+      </div>
+      <div class="hero-btns">
+        <a href="#types" class="btn-primary">🍯 اكتشف أنواعنا</a>
+        <a href="#contact" class="btn-secondary">اطلب الآن</a>
+      </div>
+    </div>
+    <div class="hero-img-wrap">
+      <img src="IMG_3558.MP4" alt="عسل الباحة الطبيعي"/>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap">
+      <img class="about-img" src="product.png" alt="جرة عسل الباحة"/>
+      <div class="about-badge-float">
+        <span class="num">100٪</span>
+        طبيعي ونقي
+      </div>
+    </div>
+    <div>
+      <div class="section-tag">عن المنتج</div>
+      <h2 class="section-title">ما هو عسل الباحة؟</h2>
+<p class="section-desc">عسل الباحة هو عسل طبيعي يُنتجه النحل من رحيق الأزهار والأشجار المنتشرة في جبال وأودية منطقة الباحة، مثل السدر والطلح والسمر والزهور البرية. يتميز باختلاف ألوانه ونكهاته حسب مصدر الرحيق مما يمنح كل نوع طابعًا خاصًا ومميزًا.</p>
+      <div class="history-card" style="margin-top:1.5rem">
+        <h4 style="font-family:'Amiri',serif;font-size:1.1rem;color:var(--brown);margin-bottom:.5rem">📜 تاريخ عريق</h4>
+        <p>ترتبط تربية النحل في منطقة الباحة بتاريخ طويل يمتد لسنوات عديدة. ساعدت الطبيعة الجبلية والمناخ المعتدل وكثرة الأشجار البرية على ازدهار هذه المهنة وتحولها إلى جزء من التراث المحلي الأصيل، حتى أصبح عسل الباحة معروفًا داخل المملكة وخارجها.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TYPES -->
+
+<section id="types">
+  <div class="types-container">
+    <div class="types-header">
+      <div class="section-tag">مصادر العسل</div>
+      <h2 class="section-title">أنواع عسل الباحة</h2>
+      <p class="section-desc">يتميز عسل الباحة بتنوع مصادره النباتية مما يجعله غنيًا بالنكهات والخصائص المختلفة</p>
+    </div>
+    <div class="types-grid">
+      <div class="type-card"><span class="type-icon">🌿</span><h3>عسل السدر</h3><p>يُعد من أفخر أنواع العسل وأكثرها شهرة، ويتميز بلونه الذهبي وطعمه الفاخر ورائحته الزكية.</p><span class="type-badge">⭐ الأكثر طلبًا</span></div>
+      <div class="type-card"><span class="type-icon">🌳</span><h3>عسل الطلح</h3><p>يتميز بلونه الداكن نسبيًا وطعمه القوي، ويُعرف بقوامه الجيد ونكهته المميزة التي يفضلها الكثير.</p><span class="type-badge">💪 قوي ومركز</span></div>
+      <div class="type-card"><span class="type-icon">🌲</span><h3>عسل السمر</h3><p>من الأنواع المشهورة ذات اللون الداكن والطعم الغني، ويُعد من الخيارات المفضلة لدى كثير من المستهلكين.</p><span class="type-badge">🍫 غني الطعم</span></div>
+      <div class="type-card"><span class="type-icon">🌸</span><h3>عسل الزهور البرية</h3><p>يُنتج من رحيق الأزهار الموسمية المتنوعة، ويتميز بطعم خفيف ومتوازن يناسب مختلف الأذواق.</p><span class="type-badge">🌼 خفيف ومتوازن</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW -->
+
+<section id="how" style="background:var(--white)">
+  <div class="how-container">
+    <div class="how-header">
+      <div class="section-tag">عملية الإنتاج</div>
+      <h2 class="section-title">كيف يتم إنتاج العسل؟</h2>
+      <p class="section-desc">تمر عملية إنتاج العسل بعدة مراحل طبيعية دقيقة حتى يصلك منتجًا نقيًا وعالي الجودة</p>
+    </div>
+    <div class="how-steps">
+      <div class="how-step"><div class="how-step-num">١</div><h3>🐝 جمع الرحيق</h3><p>يخرج النحل للبحث عن الأزهار الغنية بالرحيق ويجمعه في جسمه</p></div>
+      <div class="how-step"><div class="how-step-num">٢</div><h3>🍯 تخزين الخلية</h3><p>يعود النحل للخلية وينقل الرحيق إلى العيون السداسية داخل أقراص الشمع</p></div>
+      <div class="how-step"><div class="how-step-num">٣</div><h3>⚗️ التحويل الطبيعي</h3><p>يتحول الرحيق إلى عسل عبر نشاط النحل الطبيعي وتقليل نسبة الرطوبة</p></div>
+      <div class="how-step"><div class="how-step-num">٤</div><h3>📦 الحصاد والتعبئة</h3><p>يستخرج النحال الأقراص بعناية ويُفرز العسل ويُصفى ويُعبأ في عبوات مناسبة</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+
+<section id="benefits">
+  <div class="benefits-container">
+    <div class="benefits-header">
+      <div class="section-tag" style="color:var(--gold-light)">الفوائد الصحية</div>
+      <h2 class="section-title">لماذا عسل الباحة؟</h2>
+      <p class="section-desc" style="color:rgba(255,255,255,.75)">يُعرف عسل الباحة بجودته العالية وغناه بالعناصر الغذائية الطبيعية</p>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-card"><span class="icon">🛡️</span><h3>تقوية المناعة</h3><p>يساهم في تقوية جهاز المناعة ويساعد الجسم على مقاومة الأمراض</p></div>
+      <div class="benefit-card"><span class="icon">⚡</span><h3>زيادة الطاقة</h3><p>مصدر طبيعي للطاقة والنشاط بشكل آمن وفعّال على مدار اليوم</p></div>
+      <div class="benefit-card"><span class="icon">🫁</span><h3>صحة الجهاز الهضمي</h3><p>يُستخدم لتحسين صحة الجهاز الهضمي وتخفيف الالتهابات</p></div>
+<div class="benefit-card"><span class="icon">🌿</span><h3>مضادات الأكسدة</h3><p>يحتوي على مضادات أكسدة تساعد في دعم صحة الجسم ومقاومة الأمراض</p></div>
+      <div class="benefit-card"><span class="icon">🍵</span><h3>بديل صحي للسكر</h3><p>يمكن استخدامه كمُحلٍ طبيعي بديلًا عن السكر المكرر في المشروبات والحلويات</p></div>
+      <div class="benefit-card"><span class="icon">✨</span><h3>العناية بالبشرة</h3><p>يدخل في وصفات تجميلية متعددة للعناية بالبشرة وترطيبها بشكل طبيعي</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUALITY -->
+
+<section id="quality">
+  <div class="quality-container">
+    <div class="quality-left">
+      <div class="section-tag">ضمان الجودة</div>
+      <h2 class="section-title">الجودة والموثوقية</h2>
+      <p class="section-desc">نحرص على تقديم عسل طبيعي 100٪ يتم جمعه بعناية من مناحل منطقة الباحة وفق أعلى معايير الجودة</p>
+      <div class="quality-items">
+        <div class="quality-item"><div class="q-icon">🔬</div><div><h4>فحص دقيق</h4><p>يتم فحص العسل بدقة للتأكد من نقائه وخلوه من أي إضافات أو مواد صناعية</p></div></div>
+        <div class="quality-item"><div class="q-icon">🌿</div><div><h4>طبيعي 100٪</h4><p>منتج خالٍ من الإضافات الصناعية يتم إنتاجه من بيئة غنية بالنباتات البرية النقية</p></div></div>
+        <div class="quality-item"><div class="q-icon">📋</div><div><h4>معايير معتمدة</h4><p>وفق أعلى المعايير الصحية والرقابية لضمان وصول منتج صحي وآمن إلى عملائنا</p></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="section-tag">شهاداتنا</div>
+      <h2 class="section-title" style="margin-bottom:1.5rem">وساماتنا وشهاداتنا</h2>
+      <div class="certs-grid">
+        <div class="cert-card"><span class="cert-icon">🏅</span><h4>شهادة الجودة</h4><p>مطابق لمعايير الجودة الغذائية المعتمدة</p></div>
+        <div class="cert-card"><span class="cert-icon">🌿</span><h4>منتج طبيعي</h4><p>معتمد كمنتج طبيعي وخالٍ من المواد الصناعية</p></div>
+        <div class="cert-card"><span class="cert-icon">🛡️</span><h4>آمن صحيًا</h4><p>خضع للفحوصات الصحية وحاز موافقة الجهات المختصة</p></div>
+        <div class="cert-card"><span class="cert-icon">⭐</span><h4>تقييم ممتاز</h4><p>حصل على تقييمات عالية من العملاء باستمرار</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+
+<section id="gallery">
+  <div class="gallery-container">
+    <div class="gallery-header">
+      <div class="section-tag">معرض الصور</div>
+      <h2 class="section-title">صور من مزرعتنا</h2>
+      <p class="section-desc">لحظات حقيقية من الطبيعة إلى طاولتك</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item tall">
+        <img src="ad.png" alt="عسل الباحة الإعلانية"/>
+        <div class="overlay"><span>عسل الباحة الطبيعي</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="product.png" alt="جرة عسل الباحة"/>
+        <div class="overlay"><span>جرة العسل الأصيل</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="logo.PNG" alt="شعار عسل الباحة"/>
+        <div class="overlay"><span>شعار عسل الباحة</span></div>
+      </div>
+      <div class="gallery-item">
+        <video src="Video 1(1) (1).mp4"/>
+      </div>
+      <div class="gallery-item gallery-placeholder">
+        <span class="ph-icon">🎥</span>
+        <p>أضف فيديو المزرعة</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+
+<section id="reviews">
+  <div class="reviews-container">
+    <div class="reviews-header">
+      <div class="section-tag">تجارب حقيقية</div>
+      <h2 class="section-title">آراء عملائنا</h2>
+      <p class="section-desc">نعتز بثقة عملائنا وتجاربهم الإيجابية مع عسل الباحة</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>عسل نقي وطعمه رائع جدًا، صار جزء أساسي من يومي. لاحظت فرقًا كبيرًا في نشاطي وطاقتي.</p>
+        <div class="reviewer"><div class="reviewer-avatar">أ</div><div><div class="reviewer-name">أحمد السالم</div><div class="reviewer-date">منذ شهرين</div></div></div>
+      </div>
+      <div class="review-card">
+<div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>لاحظت فرق في صحتي ومناعتي بعد استخدامه. منتج ممتاز وأنصح الجميع بتجربته.</p>
+        <div class="reviewer"><div class="reviewer-avatar">س</div><div><div class="reviewer-name">سارة العتيبي</div><div class="reviewer-date">منذ أسبوع</div></div></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>منتج يستحق التجربة، جودة ممتازة وتوصيل سريع. سعيد جدًا بخدمة عسل الباحة.</p>
+        <div class="reviewer"><div class="reviewer-avatar">م</div><div><div class="reviewer-name">محمد الزهراني</div><div class="reviewer-date">منذ 3 أيام</div></div></div>
+      </div>
+    </div>
+    <div class="overall-rating">
+      <div class="rating-num">5.0</div>
+      <div class="rating-text">
+        <div class="stars" style="font-size:1.3rem">⭐⭐⭐⭐⭐</div>
+        <p>تقييم استثنائي</p>
+        <p>بناءً على آراء عملائنا الكرام</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+  <div class="contact-container">
+    <div class="contact-left">
+      <div class="section-tag" style="color:var(--gold-light)">تواصل معنا</div>
+      <h2 class="section-title">نسعد بخدمتك</h2>
+      <p class="section-desc">لطلب العسل أو الاستفسار عن منتجاتنا، تواصل معنا وسنرد عليك في أقرب وقت</p>
+      <div class="contact-info">
+        <div class="contact-item"><div class="c-icon">📱</div><p>اتصل بنا: 05XXXXXXXX</p></div>
+        <div class="contact-item"><div class="c-icon">💬</div><p>واتساب: 05XXXXXXXX</p></div>
+        <div class="contact-item"><div class="c-icon">📍</div><p>منطقة الباحة، المملكة العربية السعودية</p></div>
+        <div class="contact-item"><div class="c-icon">📸</div><p>انستقرام: @asalalbaha</p></div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h3 style="font-family:'Amiri',serif;font-size:1.4rem;color:var(--gold-light);margin-bottom:1.5rem">أرسل لنا رسالة</h3>
+      <div class="form-group"><label>الاسم الكريم</label><input type="text" placeholder="اسمك الكريم" id="cName"/></div>
+      <div class="form-group"><label>رقم الجوال</label><input type="tel" placeholder="05XXXXXXXX" id="cPhone"/></div>
+      <div class="form-group"><label>رسالتك</label><textarea rows="4" placeholder="اكتب رسالتك أو طلبك هنا..." id="cMsg"></textarea></div>
+      <button class="form-submit" onclick="sendMessage()">🍯 أرسل الرسالة</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="f-logo">🍯 عسل الباحة الطبيعي</div>
+  <p>نقاء من قلب الطبيعة... وطعم لا يقاوم</p>
+  <p style="margin-top:.4rem;font-size:.8rem;opacity:.5">© 2025 عسل الباحة — جميع الحقوق محفوظة</p>
+</footer>
+
+<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  function toggleNav() { document.getElementById('navLinks').classList.toggle('open'); }
+  window.addEventListener('scroll', () => {
+    document.getElementById('scrollTop').style.display = window.scrollY > 400 ? 'flex' : 'none';
+  });
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting) { e.target.style.opacity='1'; e.target.style.transform='translateY(0)'; } });
+  }, {threshold:0.1});
+  document.querySelectorAll('.type-card,.benefit-card,.review-card,.how-step,.quality-item,.cert-card').forEach(el => {
+    el.style.opacity='0'; el.style.transform='translateY(30px)';
+    el.style.transition='opacity .6s ease, transform .6s ease';
+    observer.observe(el);
+  });
+  //send whats app messege 
+  window.sendMessageV = function () {
+    var nameEL = document.getElementById('cName').value;
+    var phoneEL = document.getElementById('cPhone').value;
+    var msgEL = document.getElementById('cMsg').value;
+    if(!nameEL|| !msgEL|| !phoneEL) { alert('يرجى ملء الاسم ورقم الجوال'); return; }
+var name  = nameEl.value.trim();
+      var phone = phoneEl.value.trim();
+      var msg   = msgEl.value.trim();
+
+      if (!name || !phone) {
+        alert('يرجى ملء الاسم ورقم الجوال');
+        return;
+      }
+
+      var text = 'السلام عليكم\nأنا ' + name + '\nالجوال: ' + phone + (msg ? '\n' + msg : '');
+      window.open('https://wa.me/9665XXXXXXXX?text=' + encodeURIComponent(text), '_blank');
+    };
+
+
+</script>
+<script src="script.js"></script>
+</body>
+</body>
+</html>
